@@ -1,6 +1,4 @@
 # JPEG Image Compression and Decompression
-
-## Introduction
 This project implements a basic JPEG image compression and decompression algorithm in Python. 
 It demonstrates converting an image to the YCbCr color space, downsampling the chrominance channels, applying the Discrete Cosine Transform, quantizing the DCT coefficients, and finally encoding the data using Huffman coding. 
 The decoder reverses these steps to reconstruct the image.
