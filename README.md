@@ -24,11 +24,11 @@ The decoder reverses these steps to reconstruct the image.
 
 ## How to Use
 Place an image called 'test.png' into the assets folder
-Execute all cells in 'Encoder.ipynb'
-Execute all cells in 'Decoder.ipynb'
+Execute all cells in 'Compress.ipynb'
+Execute all cells in 'Decompress.ipynb'
 
 After Compressing, a new file test.bin should appear in /output
 After Decompressing, a new file rec.png should appear in /output
 
 ## How to modify the compression quality
-In the 'Encoder.ipynb' you can Change the values of QP (affects the influence of the Quantization Matrix), as well as the downsampling_factor (affects the Chroma channel downsampling)
+In the 'Compress.ipynb' you can Change the values of QP (affects the influence of the Quantization Matrix), as well as the downsampling_factor (affects the Chroma channel downsampling)
